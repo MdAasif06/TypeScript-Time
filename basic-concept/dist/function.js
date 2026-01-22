@@ -7,5 +7,18 @@ function makeChai(type, cups) {
 function getChaiPrice() {
     return 25;
 }
-console.log(getChaiPrice());
+// console.log(getChaiPrice())
+function makeOrder(order) {
+    if (order)
+        return null;
+    return order;
+}
+function logChain() {
+    console.log("chai is ready");
+}
+function orderChai(type) { }
+function orderChaiOne(type = "masala") { }
+function createChai(order) {
+    return 4;
+}
 //# sourceMappingURL=function.js.map
