@@ -1,7 +1,7 @@
-
 import ChaiCard from "./components/ChaiCard.tsx";
 import ChaiList from "./components/ChaiList.tsx";
 import Counter from "./components/Counter.tsx";
+import OrderForm from "./components/OrderForm.tsx";
 import type { Chai } from "./type.ts";
 
 const menu: Chai[] = [
@@ -15,13 +15,20 @@ function App() {
   return (
     <>
       <div>
-        <h1 >Vite + React</h1>
+        <h1>Vite + React</h1>
         <ChaiCard name="headphone" price={500} />
         <div>
           <Counter />
         </div>
         <div>
           <ChaiList items={menu} />
+        </div>
+        <div>
+          <OrderForm
+            onSubmit={(order) => {
+              console.log("placed", order.name, order.cups);
+            }}
+          />
         </div>
       </div>
     </>
