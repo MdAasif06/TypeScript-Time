@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const chaiFloavours = ["masala", "adrak"];
 const chaiPrice = [10, 20, 30, 40];
 const rating = [4.5, 4, 5.0];
@@ -43,4 +41,5 @@ function makeChai(type) {
 makeChai(ChaiType.Ginger);
 let t = ["chai", 10];
 t.push("lemon");
+export {};
 //# sourceMappingURL=arrayEnum.js.map

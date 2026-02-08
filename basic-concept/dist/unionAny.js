@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let subs = "1M";
 let apiRequest = "pending";
 apiRequest = "success";
@@ -14,4 +12,5 @@ for (let order of orders) {
     currentOrder: "11";
 }
 console.log(currentOrder);
+export {};
 //# sourceMappingURL=unionAny.js.map

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function makeChai(order) {
     console.log(order);
 }
@@ -26,5 +24,6 @@ const cfg = {
     appName: "Mastarji",
     version: 1,
 };
+export {};
 // cfg.appName="chai"
 //# sourceMappingURL=interface.js.map

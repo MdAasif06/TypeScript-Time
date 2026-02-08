@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let response = "43";
 //force full asertion
 let numricLength = response.length;
@@ -45,4 +43,5 @@ function redirectBasedOnRole(role) {
 function neverReturn() {
     while (true) { }
 }
+export {};
 //# sourceMappingURL=moreTypes.js.map

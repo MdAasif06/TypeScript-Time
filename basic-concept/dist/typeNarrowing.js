@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function getChai(kind) {
     if (typeof kind === "string") {
         return `making ${kind} chai..`;
@@ -61,4 +59,5 @@ function makeChai(order) {
             break;
     }
 }
+export {};
 //# sourceMappingURL=typeNarrowing.js.map

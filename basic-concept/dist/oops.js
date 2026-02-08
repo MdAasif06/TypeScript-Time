@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class ChaiOne {
     flavour;
     price;
@@ -61,4 +59,5 @@ class ChaiMaker {
         this.heater.heat;
     }
 }
+export {};
 //# sourceMappingURL=oops.js.map
