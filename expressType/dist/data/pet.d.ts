@@ -1,4 +1,4 @@
-type Pet = {
+export type Pet = {
     id: number;
     name: string;
     species: string;
@@ -15,5 +15,4 @@ type Pet = {
     photo: string;
 };
 export declare const pets: Pet[];
-export {};
 //# sourceMappingURL=pet.d.ts.map

@@ -1,6 +1,6 @@
 // there are two way to define type first inline and second is use type
 // 1st way
-type Pet = {
+export type Pet = {
   id: number;
   name: string;
   species: string;
