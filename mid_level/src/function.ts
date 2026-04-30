@@ -26,3 +26,14 @@ const sum = (...numbers: number[]): number => {
   });
 };
 // console.log(sum(1, 2, 3,4,5));
+
+//array function
+let divide=(a:number,b:number)=>{
+    return Math.round(a/b)
+}
+// console.log(divide(5,2))
+
+//function type
+let calculate:(x:number,y:number)=>number
+calculate=add
+console.log(calculate(3,4))
