@@ -24,3 +24,16 @@ export const pleaseAuth = (
     next();
   }
 };
+
+// export const pleaseAuth = (
+//   req: Request<{}, unknown, { password?: string }>,
+//   res: Response<{ message: string }>,
+//   next: NextFunction,
+// ) => {
+//   const { password } = req.query;
+//   if (password !== "please") {
+//     res.status(404).json({ message: "you don't have permisson" });
+//   } else {
+//     next();
+//   }
+// };
