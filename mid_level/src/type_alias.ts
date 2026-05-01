@@ -41,7 +41,7 @@ let dog: Animal = {
   age: 3,
   name: "bud",
 };
-// console.log(dog.name)
+console.log(dog.name)
 
 //3.use interfaces for object shapes
 //type aliases for union and intersectioons
